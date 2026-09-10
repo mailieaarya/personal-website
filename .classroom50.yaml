@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "cu-csci3308-fall2026"
+assignment: "lab-3-gui-development"
+owner:
+  username: "mailieaarya"
+  id: 229684807
+  accepted_at: "2026-09-10T21:30:12Z"
+source:
+  owner: "CUBoulder-CSCI-3308-Fall2026"
+  owner_id: 319159502
+  repo: "lab-3-gui-development"
+  branch: "main"
