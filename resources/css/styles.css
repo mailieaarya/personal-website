@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f2cfbb;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f2cfbb;
+    padding: 25px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #f28892;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.site-name {
+    color: #8e9546;
+    font-family: Zapfino, cursive;
+    font-size: 32px;
+    font-weight: normal;
+    margin:  0 15px;
+    white-space: nowrap;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.page-title {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile-image {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background-color: #f2cfbb;
+    padding: 25px;
+    border: 2px solid #f28892;
+    border-radius: 12px;
+}
+
+.card h2 {
+    font-family: Georgia, serif;
+    margin-top: 0;
+}
+
+.project { 
+    background-color: #f2cfbb;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #f28892;
+    border-radius: 12px;
+}
+
+.project h2 {
+    font-family: Georgia, serif;
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f28892;
+    color: black;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.resume-section { 
+    background-color: #f2cfbb; 
+    padding: 30px; 
+    margin-bottom: 25px; 
+    border: 2px solid #f28892; 
+    border-radius: 12px; 
+} 
+
+.resume-section h2 { 
+    font-family: Georgia, serif; 
+    border-bottom: 2px solid #f28892; 
+    padding-bottom: 8px; 
+} 
+
+.resume-section h3 { 
+    font-family: Georgia, serif; 
+} 
+
+.resume-section ul { 
+    padding-left: 25px; 
+}
+
+footer {
+    background-color: #f2cfbb;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    border-top: 2px solid #f28892
+}
+
+footer a {
+    color: #f28892;
+    font-family: Georgia, serif;
+}
+
+@media (max-width: 800px) { 
+    header { 
+        padding: 20px 10px; 
+    } 
+    
+    nav { 
+        flex-wrap: wrap; 
+        gap: 15px; 
+    } 
+    
+    .site-name { 
+        order: -1; 
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 10px; 
+    } 
+    
+    .about-section { 
+        flex-direction: column; 
+        text-align: center; 
+    } 
+    
+    .profile-image { 
+        width: 280px; 
+        height: 280px; 
+    } 
+    
+    .card-container { 
+        grid-template-columns: 1fr; 
+    } 
+    
+    .page-title { 
+        font-size: 32px; 
+    } 
+}
