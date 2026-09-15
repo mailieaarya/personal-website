@@ -5,13 +5,13 @@
 body { 
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #f2cfbb;
-    color: black;
+    background-color: #dbc5ba;
+    color: #e99dae;
     line-height: 1.6;
 }
 
 header {
-    background-color: #f2cfbb;
+    background-color: #dbc5ba;
     padding: 25px 40px;
 }
 
@@ -89,7 +89,7 @@ main {
 }
 
 .card {
-    background-color: #f2cfbb;
+    background-color: #dbc5ba;
     padding: 25px;
     border: 2px solid #f28892;
     border-radius: 12px;
@@ -101,7 +101,7 @@ main {
 }
 
 .project { 
-    background-color: #f2cfbb;
+    background-color: #dbc5ba;
     padding: 25px;
     margin-bottom: 25px;
     border: 2px solid #f28892;
@@ -116,7 +116,7 @@ main {
 .button {
     display: inline-block;
     background-color: #f28892;
-    color: black;
+    color: #e99dae;
     font-family: Georgia, serif;
     text-decoration: none;
     padding: 10px 18px;
@@ -129,7 +129,7 @@ main {
 }
 
 .resume-section { 
-    background-color: #f2cfbb; 
+    background-color: #dbc5ba; 
     padding: 30px; 
     margin-bottom: 25px; 
     border: 2px solid #f28892; 
@@ -151,8 +151,8 @@ main {
 }
 
 footer {
-    background-color: #f2cfbb;
-    color: black;
+    background-color: #dbc5ba;
+    color: #e99dae;
     text-align: center;
     padding: 25px;
     margin-top: 30px;
