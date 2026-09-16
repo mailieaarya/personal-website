@@ -95,18 +95,19 @@ main {
 /* hobby cards */
 
 .card {
-    background-color: #F2E0B8;
-    border: 2px solid #f28892;
+    background-color: #621E3E;
+    padding: 25px;
+    border: 2px solid #D9828D;
     border-radius: 12px;
 }
 
 .card-title {
     font-family: Georgia, serif;
-    color: #5F7A3F;
+    color: #D9828D;
 }
 
 .card-text {
-    color: #5F7A3F;
+    color: #FFFDF8;
 }
 
 .badge {
