@@ -7,7 +7,7 @@
 body { 
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #F7F1E3;
+    background-color: #EFE6DD;
     color: #5F7A3F;
     line-height: 1.6;
 }
@@ -15,14 +15,14 @@ body {
 /* header */
 
 header {
-    background-color: #F7F1E3;
+    background-color: #EFE6DD;
     padding: 25px 40px;
 }
 
 /* navigation tabs */
 
 .navbar {
-    background-color: #F7F1E3;
+    background-color: #EFE6DD;
 }
 
 .navbar .nav-link {
@@ -119,7 +119,7 @@ main {
 /* projects */
 
 .project { 
-    background-color: #F7F1E3;
+    background-color: #EFE6DD;
     padding: 25px;
     margin-bottom: 25px;
     border: 2px solid #f28892;
@@ -150,7 +150,7 @@ main {
 /* reusume */
 
 .resume-section { 
-    background-color: #F7F1E3; 
+    background-color: #EFE6DD; 
     padding: 30px; 
     margin-bottom: 25px; 
     border: 2px solid #f28892; 
@@ -174,7 +174,7 @@ main {
 /* footer */
 
 footer {
-    background-color: #F7F1E3;
+    background-color: #EFE6DD;
     color: #5F7A3F;
     text-align: center;
     padding: 25px;
