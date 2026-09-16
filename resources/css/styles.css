@@ -95,7 +95,7 @@ main {
 /* hobby cards */
 
 .card {
-    background-color: #f2cfbb;
+    background-color: #E9E29B;
     border: 2px solid #f28892;
     border-radius: 12px;
 }
@@ -111,7 +111,7 @@ main {
 
 .badge {
     background-color: #667436;
-    color: white;
+    color: #D6E0B8;
     font-family: Georgia, serif;
 }
 
