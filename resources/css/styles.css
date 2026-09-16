@@ -5,13 +5,13 @@
 body { 
     margin: 0;
     font-family: Georgia, serif;
-    background-color: #fffdf8;
+    background-color: #F7F1E3;
     color: #3a4a26;
     line-height: 1.6;
 }
 
 header {
-    background-color: #fffdf8;
+    background-color: #F7F1E3;
     padding: 25px 40px;
 }
 
@@ -101,7 +101,7 @@ main {
 }
 
 .project { 
-    background-color: #fffdf8;
+    background-color: #F7F1E3;
     padding: 25px;
     margin-bottom: 25px;
     border: 2px solid #f28892;
@@ -129,7 +129,7 @@ main {
 }
 
 .resume-section { 
-    background-color: #fffdf8; 
+    background-color: #F7F1E3; 
     padding: 30px; 
     margin-bottom: 25px; 
     border: 2px solid #f28892; 
@@ -151,7 +151,7 @@ main {
 }
 
 footer {
-    background-color: #fffdf8;
+    background-color: #F7F1E3;
     color: #3a4a26;
     text-align: center;
     padding: 25px;
