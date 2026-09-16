@@ -1,3 +1,5 @@
+/* general page styling */
+
 * {
     box-sizing: border-box;
 }
@@ -10,10 +12,14 @@ body {
     line-height: 1.6;
 }
 
+/* header */
+
 header {
     background-color: #F7F1E3;
     padding: 25px 40px;
 }
+
+/* navigation tabs */
 
 nav {
     display: flex;
@@ -37,6 +43,8 @@ nav a.active {
     font-weight: bold;
 }
 
+/* Mailie name */
+
 .site-name {
     color: #667436;
     font-family: Zapfino, cursive;
@@ -45,6 +53,8 @@ nav a.active {
     margin:  0 15px;
     white-space: nowrap;
 }
+
+/* main content */
 
 main {
     max-width: 1100px;
@@ -58,6 +68,8 @@ main {
     font-size: 40px;
     margin-bottom: 45px;
 }
+
+/* home page */
 
 .about-section {
     display: flex;
@@ -82,6 +94,8 @@ main {
     margin-top: 0;
 }
 
+/* hobby cards */
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -100,6 +114,8 @@ main {
     margin-top: 0;
 }
 
+/* projects */
+
 .project { 
     background-color: #F7F1E3;
     padding: 25px;
@@ -112,6 +128,8 @@ main {
     font-family: Georgia, serif;
     margin-top: 0;
 }
+
+/* button for LinkedIn */
 
 .button {
     display: inline-block;
@@ -127,6 +145,8 @@ main {
 .button:hover {
     text-decoration: underline;
 }
+
+/* reusume */
 
 .resume-section { 
     background-color: #F7F1E3; 
@@ -150,6 +170,8 @@ main {
     padding-left: 25px; 
 }
 
+/* footer */
+
 footer {
     background-color: #F7F1E3;
     color: #3a4a26;
@@ -163,6 +185,8 @@ footer a {
     color: #f28892;
     font-family: Georgia, serif;
 }
+
+/* Responsive Design */
 
 @media (max-width: 800px) { 
     header { 
