@@ -45,7 +45,7 @@ header {
 /* Mailie name */
 
 .site-name {
-    color: #667436;
+    color: #7A9142;
     font-family: Zapfino, cursive;
     font-size: 32px;
     font-weight: normal;
@@ -95,7 +95,7 @@ main {
 /* hobby cards */
 
 .card {
-    background-color: #E3DCC0;
+    background-color: #F0DFC0;
     border: 2px solid #f28892;
     border-radius: 12px;
 }
@@ -110,7 +110,7 @@ main {
 }
 
 .badge {
-    background-color: #667436;
+    background-color: #7A9142;
     color: #D6E0B8;
     font-family: Georgia, serif;
 }
