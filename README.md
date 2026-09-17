@@ -1,27 +1,60 @@
-# CSCI 3308 Lab 3: HTML and CSS
+# Personal Website
 
-## Overview
+A responsive personal website built with HTML, CSS, and Bootstrap — featuring my background, hobbies, projects, and resume.
 
-In this lab, we will be working on building the front-end using Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS). You will learn how to work with HTML & CSS, then back up your code to your git repository.
-To receive credit for this lab, you MUST check in with your TA during lab.
+🔗 **Live site:**
 
-Please follow the instructions on the [course website](https://cuboulder-csci3308.pages.dev/docs/labs/html_css_bootstrap/). Note that the above badges serve as quick links to the lab instructions, Course Canvas, and Course Piazza.
+## About
 
+This is my personal portfolio site, showcasing who I am, what I've worked on, and how to get in touch. It's built with a focus on clean, responsive design so it looks good on desktop and mobile alike.
 
+## Features
 
-Please refer to the lab instructions for more details.
+- **About Me** — background and introduction
+- **Hobbies** — a look at what I enjoy outside of work/school
+- **Projects** — a showcase of things I've built
+- **Resume** — viewable and downloadable resume
+- Fully responsive layout using Bootstrap's grid system
 
-## Submission Guidelines
+## Tech Stack
 
-To receive credit for this lab, you MUST check in with your TA during lab and upload your files to this repo by the deadline.
+- **HTML5** — page structure and content
+- **CSS3** — custom styling
+- **Bootstrap** — responsive layout and UI components
 
-Make sure to add, commit, and push your changes. You should run the following commands inside your local git directory. Make sure to double-check your submission through the browser.
+## Project Structure
 
-In a terminal opened inside your repo:
-
-```bash
-mkdir submission # then, copy/move your files into the submission directory
-git add submission
-git commit -m "added HTML and CSS files for lab3"
-git push
 ```
+personal-website/
+├── resources/     # images, assets, and other static resources
+├── views/         # page templates / HTML views
+├── submission/    # site source files
+└── README.md
+```
+
+## Getting Started
+
+To run this site locally:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/mailieaarya/personal-website.git
+   cd personal-website
+   ```
+2. Open the main HTML file directly in your browser, or serve the folder locally, e.g.:
+   ```bash
+   npx serve .
+   ```
+3. Navigate to the local address shown in your terminal to view the site.
+
+## Deployment
+
+This site can be deployed for free using static hosting such as [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), or [Vercel](https://vercel.com/).
+
+## Contact
+
+Feel free to reach out via the contact details listed on the site, or connect with me on GitHub: [@mailieaarya](https://github.com/mailieaarya).
+
+## License
+
+This project is open source and available for personal reference. Feel free to fork it for inspiration on your own site.
