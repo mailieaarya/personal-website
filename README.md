@@ -2,7 +2,7 @@
 
 A responsive personal website built with HTML, CSS, and Bootstrap — featuring my background, hobbies, projects, and resume.
 
-🔗 **Live site:**
+🔗 **Live site:** https://mailieaarya.github.io/personal-website/
 
 ## About
 
@@ -27,8 +27,10 @@ This is my personal portfolio site, showcasing who I am, what I've worked on, an
 ```
 personal-website/
 ├── resources/     # images, assets, and other static resources
-├── views/         # page templates / HTML views
-├── submission/    # site source files
+├── index.html        # page templates / HTML 
+├── hobbies.html  
+├── projects.html  
+├── resume.html  
 └── README.md
 ```
 
@@ -45,11 +47,11 @@ To run this site locally:
    ```bash
    npx serve .
    ```
+   or
+   ```bash
+   code .
+   ```
 3. Navigate to the local address shown in your terminal to view the site.
-
-## Deployment
-
-This site can be deployed for free using static hosting such as [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), or [Vercel](https://vercel.com/).
 
 ## Contact
 
