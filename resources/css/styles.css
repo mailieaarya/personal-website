@@ -131,7 +131,7 @@ main {
     margin-top: 0;
 }
 
-/* button for LinkedIn */
+/* button for projects */
 
 .button {
     background-color: #621E3E;
@@ -147,7 +147,7 @@ main {
     text-decoration: underline;
 }
 
-/* reusume */
+/* resume */
 
 .resume-section { 
     background-color: #F5EAE6; 
@@ -169,6 +169,20 @@ main {
 
 .resume-section ul { 
     padding-left: 25px; 
+}
+
+.btn-primary {
+    background-color: #621E3E;
+    color: #D9828D;
+    font-family: Georgia, serif;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #657A32;
+    color: white;
 }
 
 /* footer */
