@@ -1,0 +1,132 @@
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    color: #71834A;
+    font-family: Georgia, serif;
+}
+
+body {
+    height: 100%;
+    background-color: #F1E8E2;
+    font-family: Georgia, serif;
+    color: #4F6134;
+}
+
+/* Make events clickable */
+.event:hover {
+    cursor: pointer;
+}
+
+/* Hidden elements */
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+/* Calendar */
+#calendar {
+    height: 100vh !important;
+}
+
+/* Container */
+.custom-container {
+    width: 100%;
+    padding: 20%;
+}
+
+/* Calendar day columns */
+#calendar > div {
+    background-color: #FFF9F5 !important;
+    border: 2px solid #C97883;
+}
+
+/* Event category colors */
+.category-academic {
+    background-color: #D5DEC1;
+    color: #4F6134;
+}
+
+.category-work {
+    background-color: #E9C4C9;
+    color: #4F6134;
+}
+
+.category-personal {
+    background-color: #DCD2E6;
+    color: #4F6134;
+}
+
+.category-social {
+    background-color: #F0D2C2;
+    color: #4F6134;
+}
+
+/* Make event cards easier to read */
+.event {
+    margin-bottom: 8px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+    font-family: Georgia, serif;
+}
+
+/* Make event cards feel clickable */
+.event:hover {
+    box-shadow: 0 3px 7px rgba(79, 97, 52, 0.2);
+    transform: translateY(-1px);
+}
+
+/* Create Event button */
+.btn-primary {
+    background-color: #4F6134;
+    border-color: #4F6134;
+    color: #FFF9F5;
+    font-family: Georgia, serif;
+}
+
+.btn-primary:hover {
+    background-color: #C97883;
+    border-color: #C97883;
+    color: #FFF9F5;
+}
+
+/* Modal */
+.modal-content {
+    font-family: Georgia, serif;
+    background-color: #FFF9F5;
+}
+
+.modal-header {
+    border-bottom: 2px solid #C97883;
+}
+
+.modal-title {
+    color: #4F6134;
+}
+
+.modal-footer {
+    border-top: 2px solid #C97883;
+}
+
+/* Form labels */
+.form-label {
+    color: #4F6134;
+    font-weight: bold;
+}
+
+/* Form focus */
+.form-control:focus,
+.form-select:focus {
+    border-color: #C97883;
+    box-shadow: 0 0 0 0.25rem rgba(201, 120, 131, 0.25);
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+    #calendar {
+        height: auto !important;
+    }
+
+    .event {
+        font-size: 13px;
+    }
+}

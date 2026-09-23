@@ -172,6 +172,18 @@ main {
 }
 
 .btn-primary {
+    background-color: #C97883;
+    border-color: #C97883;
+    color: #FFF9F5;
+}
+
+.btn-primary:hover {
+    background-color: #71834A;
+    border-color: #71834A;
+    color: #FFF9F5;
+}
+/*
+.btn-primary {
     background-color: #621E3E;
     color: #D9828D;
     font-family: Georgia, serif;
@@ -184,6 +196,7 @@ main {
     background-color: #657A32;
     color: white;
 }
+    */
 
 /* footer */
 
